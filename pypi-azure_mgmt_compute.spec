@@ -4,7 +4,7 @@
 #
 Name     : pypi-azure_mgmt_compute
 Version  : 26.1.0
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/04/e2/9724944bf6348548279358a776c39153138ffafe3fbb1dd4a2bec3e5c69a/azure-mgmt-compute-26.1.0.zip
 Source0  : https://files.pythonhosted.org/packages/04/e2/9724944bf6348548279358a776c39153138ffafe3fbb1dd4a2bec3e5c69a/azure-mgmt-compute-26.1.0.zip
 Summary  : Microsoft Azure Compute Management Client Library for Python
@@ -61,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1646239761
+export SOURCE_DATE_EPOCH=1649715566
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
