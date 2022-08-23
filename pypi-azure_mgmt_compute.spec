@@ -4,7 +4,7 @@
 #
 Name     : pypi-azure_mgmt_compute
 Version  : 27.2.0
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/74/3b/b17cfa500a0c99eead45d68738f4bd38d93052843ccb1117f18d2af8c889/azure-mgmt-compute-27.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/74/3b/b17cfa500a0c99eead45d68738f4bd38d93052843ccb1117f18d2af8c889/azure-mgmt-compute-27.2.0.zip
 Summary  : Microsoft Azure Compute Management Client Library for Python
