@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-azure_mgmt_compute
-Version  : 30.0.0
-Release  : 27
-URL      : https://files.pythonhosted.org/packages/d8/3f/651b3ddfe3849bbdc247ea4a75a506137d1ecdfb460b70dfff81c42e5bb0/azure-mgmt-compute-30.0.0.zip
-Source0  : https://files.pythonhosted.org/packages/d8/3f/651b3ddfe3849bbdc247ea4a75a506137d1ecdfb460b70dfff81c42e5bb0/azure-mgmt-compute-30.0.0.zip
+Version  : 30.1.0
+Release  : 28
+URL      : https://files.pythonhosted.org/packages/d3/6d/6bcde6f9c551394f40c33fbc9ce0db7e2b04778265d72aa4dbd11a76f48f/azure-mgmt-compute-30.1.0.zip
+Source0  : https://files.pythonhosted.org/packages/d3/6d/6bcde6f9c551394f40c33fbc9ce0db7e2b04778265d72aa4dbd11a76f48f/azure-mgmt-compute-30.1.0.zip
 Summary  : Microsoft Azure Compute Management Client Library for Python
 Group    : Development/Tools
 License  : MIT
@@ -59,10 +59,10 @@ python3 components for the pypi-azure_mgmt_compute package.
 
 
 %prep
-%setup -q -n azure-mgmt-compute-30.0.0
-cd %{_builddir}/azure-mgmt-compute-30.0.0
+%setup -q -n azure-mgmt-compute-30.1.0
+cd %{_builddir}/azure-mgmt-compute-30.1.0
 pushd ..
-cp -a azure-mgmt-compute-30.0.0 buildavx2
+cp -a azure-mgmt-compute-30.1.0 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685025953
+export SOURCE_DATE_EPOCH=1690209978
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
