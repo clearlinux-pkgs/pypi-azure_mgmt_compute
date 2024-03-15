@@ -1,5 +1,5 @@
 PKG_NAME := pypi-azure_mgmt_compute
-URL = https://files.pythonhosted.org/packages/e4/db/f577c83b84bef1e741ff4b5ac9eadf5b8ab881ae3f3757338e71122384fc/azure-mgmt-compute-30.5.0.tar.gz
+URL = https://files.pythonhosted.org/packages/1e/e2/04dc4d1d2592858b7cf22efde3f7c5e5516faf98131214823b68fb7c087a/azure-mgmt-compute-30.6.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
